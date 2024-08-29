@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "editor.linkedEditing": true,
+    "workbench.colorCustomizations": {
+        "sash.hoverBorder": "#1f6fd0"
+    },
+    "peacock.color": "#1857a4",
+    "liveServer.settings.port": 5504
+}

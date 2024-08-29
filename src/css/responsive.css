@@ -1,0 +1,130 @@
+@media  (width >= 993px) and (width <= 1115px) {
+    .home {
+        padding-inline: 2%;
+        gap: 30px;
+    }
+}
+
+/* RESPONSIVO: iPad e Tablets */
+@media (width <= 992px) {
+    .home {
+        padding-left: 5%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        background: blueviolet url('../image/bg-mobile.svg') center/cover no-repeat;
+    }
+
+    .home-left, .home-right {
+        align-self: flex-start;
+    }
+
+    .home-left .img {
+        max-width: 450px;
+    }
+    
+    .home-right .social {
+        position: static;
+    }
+
+    .home-right .actions {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .home-right .social i {
+        margin-inline: 12px;
+    }
+}
+
+/* RESPONSIVO: Celulares */
+@media (width <= 576px) {
+    .home {
+        padding-left: 0;
+        text-align: center;
+        background: blueviolet url('../image/bg-mobile.svg') no-repeat;
+    }
+
+    .home-left, .home-right {
+        align-self: center;
+    }
+
+    .home-left .logo {
+        text-align: start;
+        max-width: 150px;
+    }
+
+    .home-left .img {
+        max-width: 270px;
+    }
+
+    .home-right {
+        margin-bottom: 0;
+    }
+
+    .home-right h1 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .home-right p {
+        max-width: 300px;
+    }
+
+    .home-right .actions {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .home-right button {
+        padding: 10px 75px;
+    }
+
+    .home-right .social i {
+        margin-inline: 8px;
+        padding: 5px 10px;
+    }
+}
+
+/* RESPONSIVO: Relógios Digitais e MiniCelulares */
+@media (width <= 320px) {
+    .home {
+        padding: 30px 5%;
+        gap: 10px;
+    }
+
+    .home-left .logo {
+        transform: translateY(-35%);
+    }
+
+    .home-left .img {
+        max-width: 214px;
+    }
+
+    .home-right h1 {
+        font-size: 80%;
+    }
+
+    .home-right p {
+        max-width: 211px;
+        margin-bottom: 15px;
+        font-size: 65%;
+        line-height: 14px;
+    }
+
+    .home-right .actions {
+        gap: 20px;
+    }
+
+    .home-right button {
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+
+    .home-right .social i {
+        margin-inline: 5px;
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+}

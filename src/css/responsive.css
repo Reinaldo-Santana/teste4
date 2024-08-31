@@ -3,6 +3,10 @@
         padding-inline: 2%;
         gap: 30px;
     }
+
+    .home-left .logo {
+        transform: translateY(0);
+    }
 }
 
 /* RESPONSIVO: iPad e Tablets */

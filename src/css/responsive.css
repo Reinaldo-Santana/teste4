@@ -1,12 +1,12 @@
 @media (pointer: coarse) {
     .home-right button:hover {
-        background-color: #ffffff;
-        color: rgb(103, 75, 175);
+        background-color: initial;
+        color: inherit;
     }
 
-    .home-right .social a:hover i {
+    .home-right .social i:hover {
         color: inherit;
-        border-color: inherit;
+        border-color: initial;
     }
 }
 
@@ -50,7 +50,7 @@
         color: rgb(255, 255, 255);
     }
 
-    .home-right .social a:active i {
+    .home-right .social i:active {
         color: rgb(250, 80, 171);
         border-color: rgb(250, 80, 171);
     }

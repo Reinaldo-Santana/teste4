@@ -1,7 +1,7 @@
 @media (pointer: coarse) {
     .home-right button:hover {
-        background-color: inherit;
-        color: inherit;
+        background-color: #ffffff;
+        color: blueviolet;
     }
 }
 
@@ -40,10 +40,10 @@
         gap: 20px;
     }
 
-    .home-right button:active {
+    /* .home-right button:active {
         background-color: rgb(232, 130, 232);
         color: rgb(255, 255, 255);
-    }
+    } */
 
     .home-right .social {
         position: static;

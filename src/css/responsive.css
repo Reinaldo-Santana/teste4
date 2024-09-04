@@ -36,7 +36,7 @@
 
     .home-right button,
     .home-left .social i {
-        transition: 0.3s ease;
+        transition: none;
     }
 
     .home-right button:hover {

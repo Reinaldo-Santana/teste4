@@ -1,11 +1,4 @@
-@media (pointer: coarse) {
-    .home-right .btn:hover {
-        background-color: none;
-        color: none;
-    }
-}
-
-@media  (width >= 993px) and (width <= 1115px) {
+@media (width >=993px) and (width <=1115px) {
     .home {
         padding-inline: 2%;
         gap: 30px;
@@ -17,7 +10,7 @@
 }
 
 /* RESPONSIVO: iPad e Tablets */
-@media (width <= 992px) {
+@media (width <=992px) {
     .home {
         padding-left: 5%;
         flex-direction: column;
@@ -26,21 +19,31 @@
         background: blueviolet url('../image/bg-mobile.svg') center/cover no-repeat;
     }
 
-    .home-left, .home-right {
+    .home-left,
+    .home-right {
         align-self: flex-start;
     }
 
     .home-left .img {
         max-width: 450px;
     }
-    
+
     .home-right .actions {
         display: flex;
         align-items: center;
         gap: 20px;
     }
 
-    .home-right .btn:active {
+    .home-right button,
+    .home-left .social i {
+        transition: none;
+    }
+
+    .home-right button:hover {
+        background-color: #F0EDF0;
+        color: rgb(103, 75, 175);
+    }
+    .home-right button:active {
         background-color: rgb(232, 130, 232);
         color: rgb(255, 255, 255);
     }
@@ -52,17 +55,27 @@
     .home-right .social i {
         margin-inline: 12px;
     }
+
+    .home-right .social i:hover {
+        color: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+    }
+    .home-right .social i:active {
+        color: rgb(250, 80, 171);
+        border-color: rgb(250, 80, 171);
+    }
 }
 
 /* RESPONSIVO: Celulares */
-@media (width <= 576px) {
+@media (width <=576px) {
     .home {
         padding-left: 0;
         text-align: center;
         background: blueviolet url('../image/bg-mobile.svg') no-repeat;
     }
 
-    .home-left, .home-right {
+    .home-left,
+    .home-right {
         align-self: center;
     }
 
@@ -104,7 +117,7 @@
 }
 
 /* RESPONSIVO: Relógios Digitais e MiniCelulares */
-@media (width <= 320px) {
+@media (width <=320px) {
     .home {
         padding: 30px 5%;
         gap: 10px;

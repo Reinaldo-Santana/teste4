@@ -1,7 +1,7 @@
 @media (pointer: coarse) {
     .home-right button:hover {
         background-color: #ffffff;
-        color: blueviolet;
+        color: rgb(103, 75, 175);
     }
 }
 

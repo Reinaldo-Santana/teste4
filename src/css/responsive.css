@@ -1,7 +1,7 @@
 @media (pointer: coarse) {
     .home-right .btn:hover {
-        background-color: inherit;
-        color: inherit;
+        background-color: none;
+        color: none;
     }
 }
 

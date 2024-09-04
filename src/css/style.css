@@ -47,7 +47,7 @@
     color: rgb(233, 229, 244);
 }
 
-.home-right button {
+.home-right .btn {
     padding: 15px 60px;
     border-radius: 28px;
     font-size: 18px;
@@ -55,9 +55,9 @@
     box-shadow: 0px 2px 25px #2b2828b3;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
-    /* transition: 0.3s ease-in-out; */
+    transition: 0.3s ease-in-out;
 }
-.home-right button:hover {
+.home-right .btn:hover {
     background-color: rgb(232, 130, 232);
     color: rgb(255, 255, 255);
 }

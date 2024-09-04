@@ -1,16 +1,11 @@
 @media (pointer: coarse) {
-    .home-right button:hover {
-        background-color: initial;
+    .home-right .btn:hover {
+        background-color: inherit;
         color: inherit;
-    }
-
-    .home-right .social i:hover {
-        color: inherit;
-        border-color: initial;
     }
 }
 
-/* @media  (width >= 993px) and (width <= 1115px) {
+@media  (width >= 993px) and (width <= 1115px) {
     .home {
         padding-inline: 2%;
         gap: 30px;
@@ -19,7 +14,7 @@
     .home-left .logo {
         transform: translateY(0);
     }
-} */
+}
 
 /* RESPONSIVO: iPad e Tablets */
 @media (width <= 992px) {
@@ -43,6 +38,11 @@
         display: flex;
         align-items: center;
         gap: 20px;
+    }
+
+    .home-right .btn:hover {
+        background-color: rgb(232, 130, 232);
+        color: rgb(255, 255, 255);
     }
 
     .home-right .social {

@@ -9,6 +9,6 @@ a {
     text-decoration: none;
 }
 
-/* a, button {
+a, button {
     -webkit-tap-highlight-color: transparent;
-} */
+}

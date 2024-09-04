@@ -86,10 +86,11 @@
         background-color: inherit;
         color: inherit;
     }
-}
-@media (width <= 992px) {
-    .home-right button:active {
-        background-color: rgb(232, 130, 232);
-        color: rgb(255, 255, 255);
+    
+    @media (width <= 992px) {
+        .home-right button:active {
+            background-color: rgb(232, 130, 232);
+            color: rgb(255, 255, 255);
+        }
     }
 }

@@ -80,3 +80,9 @@
     color: rgb(250, 80, 171);
     border-color: rgb(250, 80, 171);
 }
+
+@media (hover: none) {
+    *:hover {
+        all: unset;
+    }
+}

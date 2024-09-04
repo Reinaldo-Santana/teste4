@@ -81,16 +81,20 @@
     border-color: rgb(250, 80, 171);
 }
 
-@media (pointer: coarse) {
+/* @media (pointer: coarse) {
+    .home-right button:hover {
+        background-color: inherit;
+        color: inherit;
+    }
+} */
+@media (width <= 992px) {
     .home-right button:hover {
         background-color: inherit;
         color: inherit;
     }
     
-    @media (width <= 992px) {
-        .home-right button:active {
-            background-color: rgb(232, 130, 232);
-            color: rgb(255, 255, 255);
-        }
+    .home-right button:active {
+        background-color: rgb(232, 130, 232);
+        color: rgb(255, 255, 255);
     }
 }

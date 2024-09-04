@@ -89,8 +89,8 @@
 } */
 @media (width <= 992px) {
     .home-right button:hover {
-        background-color: none;
-        color: none;
+        background-color: initial;
+        color: initial;
     }
 
     .home-right button:active {

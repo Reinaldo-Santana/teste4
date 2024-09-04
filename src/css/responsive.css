@@ -1,12 +1,12 @@
 @media (pointer: coarse) {
     .home-right button:hover {
-        background-color: initial;
-        color: initial;
+        background-color: none;
+        color: none;
     }
 
     .home-right .social i:hover {
-        color: initial;
-        border-color: initial;
+        color: none;
+        border-color: none;
     }
 }
 @media (width <= 992px) {

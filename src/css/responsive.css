@@ -1,4 +1,11 @@
-@media  (width >= 993px) and (width <= 1115px) {
+@media (pointer: coarse) {
+    .home-right button:hover {
+        background-color: inherit;
+        color: inherit;
+    }
+}
+
+/* @media  (width >= 993px) and (width <= 1115px) {
     .home {
         padding-inline: 2%;
         gap: 30px;
@@ -7,7 +14,7 @@
     .home-left .logo {
         transform: translateY(0);
     }
-}
+} */
 
 /* RESPONSIVO: iPad e Tablets */
 @media (width <= 992px) {
@@ -31,6 +38,11 @@
         display: flex;
         align-items: center;
         gap: 20px;
+    }
+
+    .home-right button:active {
+        background-color: rgb(232, 130, 232);
+        color: rgb(255, 255, 255);
     }
 
     .home-right .social {

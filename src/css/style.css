@@ -51,6 +51,7 @@
     padding: 15px 60px;
     border-radius: 28px;
     font-size: 18px;
+    background-color: rgb(255, 255, 255);
     color: rgb(103, 75, 175);
     box-shadow: 0px 2px 25px #2b2828b3;
     font-family: "Poppins", sans-serif;
@@ -79,11 +80,4 @@
 .home-right .social i:hover {
     color: rgb(250, 80, 171);
     border-color: rgb(250, 80, 171);
-}
-
-@media (hover: none) {
-    *:hover {
-        background-color: inherit;
-        color: inherit;
-    }
 }

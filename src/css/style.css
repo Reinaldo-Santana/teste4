@@ -86,7 +86,6 @@
         background-color: inherit;
         color: inherit;
     }
-
 }
 @media (width <= 992px) {
     .home-right button:active {

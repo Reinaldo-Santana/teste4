@@ -34,11 +34,6 @@
         gap: 20px;
     }
 
-    .home-right button,
-    .home-left .social i {
-        transition: none;
-    }
-
     .home-right button:hover {
         background-color: #F0EDF0;
         color: rgb(103, 75, 175);

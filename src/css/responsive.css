@@ -3,6 +3,11 @@
         background-color: #ffffff;
         color: rgb(103, 75, 175);
     }
+
+    .home-right .social i:hover {
+        color: inherit;
+        border-color: inherit;
+    }
 }
 
 /* @media  (width >= 993px) and (width <= 1115px) {
@@ -43,6 +48,11 @@
     .home-right button:active {
         background-color: rgb(232, 130, 232);
         color: rgb(255, 255, 255);
+    }
+
+    .home-right .social i:hover {
+        color: rgb(250, 80, 171);
+        border-color: rgb(250, 80, 171);
     }
 
     .home-right .social {

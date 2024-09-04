@@ -40,7 +40,7 @@
         gap: 20px;
     }
 
-    .home-right .btn:hover {
+    .home-right .btn:active {
         background-color: rgb(232, 130, 232);
         color: rgb(255, 255, 255);
     }

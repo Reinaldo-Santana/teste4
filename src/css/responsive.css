@@ -41,7 +41,7 @@
 
     .home-right button:hover {
         background-color: #F0EDF0;
-        color: rgb(103, 75, 175);
+        color: inherit;
     }
     .home-right button:active {
         background-color: rgb(232, 130, 232);
@@ -57,8 +57,8 @@
     }
 
     .home-right .social i:hover {
-        color: rgb(255, 255, 255);
-        border-color: rgb(255, 255, 255);
+        color: inherit;
+        border-color: inherit;
     }
     .home-right .social i:active {
         color: rgb(250, 80, 171);

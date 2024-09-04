@@ -1,12 +1,12 @@
 @media (pointer: coarse) {
     .home-right button:hover {
-        background-color: inherit;
-        color: inherit;
+        background-color: initial;
+        color: initial;
     }
 
     .home-right .social i:hover {
-        color: inherit;
-        border-color: inherit;
+        color: initial;
+        border-color: initial;
     }
 }
 @media (width <= 992px) {

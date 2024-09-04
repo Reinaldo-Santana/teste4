@@ -12,3 +12,9 @@ a {
 a, button {
     -webkit-tap-highlight-color: transparent;
 }
+
+@media (hover: none) {
+    *:hover {
+        all: unset;
+    }
+}

@@ -4,7 +4,7 @@
         color: rgb(103, 75, 175);
     }
 
-    .home-right .social i:hover {
+    .home-right .social a:hover i {
         color: inherit;
         border-color: inherit;
     }
@@ -50,7 +50,7 @@
         color: rgb(255, 255, 255);
     }
 
-    .home-right .social i:active {
+    .home-right .social a:active i {
         color: rgb(250, 80, 171);
         border-color: rgb(250, 80, 171);
     }

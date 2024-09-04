@@ -76,7 +76,7 @@
     border: solid 1px rgb(255, 255, 255);
     transition: 0.2s ease-in-out;
 }
-.home-right .social i:hover {
+.home-right .social a:hover i {
     color: rgb(250, 80, 171);
     border-color: rgb(250, 80, 171);
 }

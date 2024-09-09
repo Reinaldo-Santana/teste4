@@ -74,13 +74,18 @@
     right: 70px;
 }
 
+.home-right .social a {
+    display: inline-block;
+    margin-inline: 5px;
+    border-radius: 50%;
+}
+
 .home-right .social i {
-    width: 40PX;
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
-    margin-inline: 5px;
     background-color: #ffffff;
     color: #000000;
     box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
@@ -89,6 +94,10 @@
 .home-right .social i:hover {
     transform: translateY(-10%);
     color: #ffffff;
+}
+.home-right .social i:active {
+    transform: translateY(0);
+    transition: none;
 }
 
 .home-right .social .fa-twitter:hover {

@@ -1,4 +1,4 @@
-@media (width >=993px) and (width <=1115px) {
+@media (width >= 993px) and (width <= 1115px) {
     .home {
         padding-inline: 2%;
         gap: 30px;
@@ -10,7 +10,7 @@
 }
 
 /* RESPONSIVO: iPad e Tablets */
-@media (width <=992px) {
+@media (width <= 992px) {
     .home {
         padding-left: 5%;
         flex-direction: column;
@@ -43,8 +43,11 @@
         position: static;
     }
 
-    .home-right .social i {
+    .home-right .social a {
         margin-inline: 12px;
+    }
+
+    .home-right .social i {
         color: #ffffff;
     }
     .home-right .social i:hover {
@@ -67,7 +70,7 @@
 }
 
 /* RESPONSIVO: Celulares */
-@media (width <=576px) {
+@media (width <= 576px) {
     .home {
         padding-left: 0;
         text-align: center;
@@ -110,13 +113,13 @@
         padding: 10px 75px;
     }
 
-    .home-right .social i {
+    .home-right .social a {
         margin-inline: 8px;
     }
 }
 
 /* RESPONSIVO: Relógios Digitais e MiniCelulares */
-@media (width <=320px) {
+@media (width <= 320px) {
     .home {
         padding: 30px 5%;
         gap: 10px;
@@ -137,8 +140,8 @@
     .home-right p {
         max-width: 211px;
         margin-bottom: 15px;
-        font-size: 65%;
         line-height: 14px;
+        font-size: 65%;
     }
 
     .home-right .actions {
@@ -150,8 +153,14 @@
         font-size: 10px;
     }
 
-    .home-right .social i {
+    .home-right .social a {
         margin-inline: 5px;
+    }
+
+    .home-right .social i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
         font-size: 8px;
     }
 }

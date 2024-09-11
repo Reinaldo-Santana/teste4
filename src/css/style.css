@@ -52,15 +52,16 @@
 .home-right button {
     padding: 15px 60px;
     border-radius: 28px;
-    font-size: 18px;
     color: #674baf;
     font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
+    box-shadow: inset 0 0 0 0 #ee6fce;
 }
 .home-right button:hover {
-    background-color: #ee6fce;
+    box-shadow: inset 0 -100px 0 0 #ee6fce;
     color: #ffffff;
 }
 .home-right button:active {

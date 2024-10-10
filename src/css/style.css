@@ -34,22 +34,22 @@
 
 .home-right h1 {
     margin-bottom: 25px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: 600;
     text-transform: capitalize;
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
 }
 
 .home-right p {
     max-width: 451px;
     margin-bottom: 28px;
+    color: #e9e5f4;
     font-weight: 400;
     line-height: 25px;
-    color: #e9e5f4;
 }
 
-.home-right button {
+.home-right .actions button {
     padding: 15px 60px;
     border-radius: 28px;
     color: #674baf;
@@ -60,28 +60,30 @@
     transition: 0.5s ease-in-out;
     box-shadow: inset 0 0 0 0 #ee6fce;
 }
-.home-right button:hover {
+
+.home-right .actions button:hover {
     box-shadow: inset 0 -100px 0 0 #ee6fce;
     color: #ffffff;
 }
-.home-right button:active {
+
+.home-right .actions button:active {
     position: relative;
     top: 1px;
 }
 
-.home-right .social {
+.home-right .actions .social {
     position: absolute;
     bottom: 30px;
     right: 70px;
 }
 
-.home-right .social a {
+.home-right .actions .social a {
     display: inline-block;
     margin-inline: 5px;
     border-radius: 50%;
 }
 
-.home-right .social i {
+.home-right .actions .social i {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -92,21 +94,25 @@
     box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
     transition: 0.2s ease-in-out;
 }
-.home-right .social i:hover {
+
+.home-right .actions .social i:hover {
     transform: translateY(-10%);
     color: #ffffff;
 }
-.home-right .social i:active {
+
+.home-right .actions .social i:active {
     transform: translateY(0);
     transition: none;
 }
 
-.home-right .social .fa-twitter:hover {
+.home-right .actions .social .fa-twitter:hover {
     background-color: #00A7E5;
 }
-.home-right .social .fa-instagram:hover {
+
+.home-right .actions .social .fa-instagram:hover {
     background-color: #fa50ab;
 }
-.home-right .social .fa-facebook-f:hover {
+
+.home-right .actions .social .fa-facebook-f:hover {
     background-color: #1473EA;
 }

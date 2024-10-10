@@ -1,4 +1,4 @@
-@media (width >= 993px) and (width <= 1115px) {
+@media (width >=993px) and (width <=1115px) {
     .home {
         padding-inline: 2%;
         gap: 30px;
@@ -10,7 +10,7 @@
 }
 
 /* RESPONSIVO: iPad e Tablets */
-@media (width <= 992px) {
+@media (width <=992px) {
     .home {
         padding-left: 5%;
         flex-direction: column;
@@ -34,45 +34,49 @@
         gap: 20px;
     }
 
-    .home-right button,
-    .home-right button:hover {
+    .home-right .actions button,
+    .home-right .actions button:hover {
         background-color: #ee6fce;
         color: #ffffff;
         box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
     }
 
-    .home-right .social {
+    .home-right .actions .social {
         position: static;
     }
 
-    .home-right .social a {
+    .home-right .actions .social a {
         margin-inline: 12px;
     }
 
-    .home-right .social i {
+    .home-right .actions .social i {
         color: #ffffff;
     }
-    .home-right .social i:hover {
+
+    .home-right .actions .social i:hover {
         transform: translateY(0);
     }
+
     .home-right i:active {
         position: relative;
         bottom: 2px;
     }
 
-    .home-right .social .fa-twitter {
+    .home-right .actions .social .fa-twitter {
         background-color: #00A7E5;
     }
-    .home-right .social .fa-instagram {
+
+    .home-right .actions .social .fa-instagram {
         background-color: #fa50ab;
     }
-    .home-right .social .fa-facebook-f {
+
+    .home-right .actions .social .fa-facebook-f {
         background-color: #1473EA;
     }
 }
 
 /* RESPONSIVO: Celulares */
-@media (width <= 576px) {
+@media (width <=576px) {
     .home {
         padding-left: 0;
         text-align: center;
@@ -111,17 +115,17 @@
         gap: 40px;
     }
 
-    .home-right button {
+    .home-right .actions button {
         padding: 10px 75px;
     }
 
-    .home-right .social a {
+    .home-right .actions .social a {
         margin-inline: 8px;
     }
 }
 
 /* RESPONSIVO: Relógios Digitais e MiniCelulares */
-@media (width <= 320px) {
+@media (width <=320px) {
     .home {
         padding: 30px 5%;
         gap: 10px;
@@ -150,16 +154,16 @@
         gap: 20px;
     }
 
-    .home-right button {
+    .home-right .actions button {
         padding: 5px 20px;
         font-size: 10px;
     }
 
-    .home-right .social a {
+    .home-right .actions .social a {
         margin-inline: 5px;
     }
 
-    .home-right .social i {
+    .home-right .actions .social i {
         width: 30px;
         height: 30px;
         line-height: 30px;

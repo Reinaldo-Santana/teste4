@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-    <meta name="theme-color" content="rgb(138, 43, 226)">
+    <meta name="theme-color" content="#6d27b0">
     <title>Huddle</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -15,38 +16,43 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
+
 <body>
     <main class="home">
-        <div class="home-left">
+        <section class="visual-area">
             <div class="logo">
-                <img src="./src/image/logo.svg" alt="Logo: Huddle">
+                <img src="./src/image/logo.svg" alt="Logo da marca Huddle">
             </div>
-            <div class="img">
-                <img src="./src/image/illustration-mockups.svg" alt="Maquetes de ilustração">
-            </div>
-        </div>
 
-        <div class="home-right">
+            <div class="illustration-container">
+                <img src="./src/image/illustration-mockups.svg" alt="Ilustração de maquetes">
+            </div>
+        </section>
+
+        <section class="content-container">
             <h1>Build the community<br>your fans will love</h1>
             <p>Huddle re-imagines the way qe build communities. You have a voice, but so does your audience. Create
-            connections with your users as you engage in genuine discussion.</p>
-            
+                connections with your users as you engage in genuine discussion.</p>
+
             <div class="actions">
-                <button>Register</button>
+                <button><span>Register</span></button>
 
                 <address class="social">
-                    <a href="#">
+                    <a href="#" aria-label="Facebook">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#">
+                    <a href="#" aria-label="Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="#" aria-label="Twitter">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </address>
             </div>
-        </div>
+        </section>
     </main>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>

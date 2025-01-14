@@ -1,10 +1,10 @@
-@media (width >=993px) and (width <=1115px) {
+@media (width >=993px) and (width <=1175px) {
     .home {
         padding-inline: 2%;
-        gap: 30px;
+        gap: 4rem;
     }
 
-    .home-left .logo {
+    .home .visual-area .logo {
         transform: translateY(0);
     }
 }
@@ -15,62 +15,65 @@
         padding-left: 5%;
         flex-direction: column;
         justify-content: center;
-        gap: 20px;
-        background: #8a2be2 url('../image/bg-mobile.svg') center/cover no-repeat;
+        gap: 2rem;
+        background: var(--background-color-responsive) url('../image/bg-mobile.svg') center/cover no-repeat;
     }
 
-    .home-left,
-    .home-right {
+    .home :is(.visual-area,
+        .content-container) {
         align-self: flex-start;
     }
 
-    .home-left .img {
-        max-width: 450px;
+    .home .visual-area .illustration-container {
+        max-width: 45rem;
     }
 
-    .home-right .actions {
+    .home .content-container .actions {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 2rem;
     }
 
-    .home-right .actions button,
-    .home-right .actions button:hover {
-        background-color: #ee6fce;
-        color: #ffffff;
+    .home .content-container .actions :is(button, button:hover) {
+        background-color: var(--button-color);
+        color: var(--white-color);
         box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
     }
 
-    .home-right .actions .social {
+    .home .content-container .actions button:hover span {
+        transform: none;
+    }
+
+    .home .content-container .actions .social {
         position: static;
     }
 
-    .home-right .actions .social a {
-        margin-inline: 12px;
+    .home .content-container .actions .social a {
+        margin-inline: 1.2rem;
     }
 
-    .home-right .actions .social i {
-        color: #ffffff;
+    .home .content-container .actions .social a i {
+        color: var(--white-color);
     }
 
-    .home-right .actions .social i:hover {
+    .home .content-container .actions .social a:hover i {
         transform: translateY(0);
     }
 
-    .home-right i:active {
+    .home .content-container a:active i {
         position: relative;
-        bottom: 2px;
+        bottom: 0.2rem;
     }
 
-    .home-right .actions .social .fa-twitter {
+    .home .content-container .actions .social .fa-twitter {
         background-color: #00A7E5;
     }
 
-    .home-right .actions .social .fa-instagram {
+    .home .content-container .actions .social .fa-instagram {
         background-color: #fa50ab;
     }
 
-    .home-right .actions .social .fa-facebook-f {
+    .home .content-container .actions .social .fa-facebook-f {
         background-color: #1473EA;
     }
 }
@@ -80,93 +83,92 @@
     .home {
         padding-left: 0;
         text-align: center;
-        background: #8a2be2 url('../image/bg-mobile.svg') no-repeat;
+        background: var(--background-color-responsive) url('../image/bg-mobile.svg') no-repeat;
     }
 
-    .home-left,
-    .home-right {
+    .home :is(.visual-area,
+        .content-container) {
         align-self: center;
     }
 
-    .home-left .logo {
+    .home .visual-area .logo {
+        max-width: 15rem;
         text-align: start;
-        max-width: 150px;
     }
 
-    .home-left .img {
-        max-width: 270px;
+    .home .visual-area .illustration-container {
+        max-width: 27rem;
     }
 
-    .home-right {
+    .home .content-container {
         margin-bottom: 0;
     }
 
-    .home-right h1 {
-        margin-bottom: 10px;
-        font-size: 24px;
+    .home .content-container h1 {
+        margin-bottom: 1rem;
     }
 
-    .home-right p {
-        max-width: 300px;
+    .home .content-container p {
+        max-width: 30rem;
     }
 
-    .home-right .actions {
+    .home .content-container .actions {
         flex-direction: column;
-        gap: 40px;
+        gap: 4rem;
     }
 
-    .home-right .actions button {
-        padding: 10px 75px;
+    .home .content-container .actions button {
+        padding: 1rem 7.5rem;
     }
 
-    .home-right .actions .social a {
-        margin-inline: 8px;
+    .home .content-container .actions .social a {
+        margin-inline: 0.8rem;
     }
 }
 
 /* RESPONSIVO: Relógios Digitais e MiniCelulares */
 @media (width <=320px) {
     .home {
-        padding: 30px 5%;
-        gap: 10px;
+        padding: 3rem 5%;
+        gap: 1rem;
     }
 
-    .home-left .logo {
+    .home .visual-area .logo {
         transform: translateY(-35%);
     }
 
-    .home-left .img {
-        max-width: 214px;
+    .home .visual-area .illustration-container {
+        max-width: 21.4rem;
     }
 
-    .home-right h1 {
-        font-size: 80%;
+    .home .content-container h1 {
+        font-size: 1.4rem;
     }
 
-    .home-right p {
-        max-width: 211px;
-        margin-bottom: 15px;
-        line-height: 14px;
-        font-size: 65%;
+    .home .content-container p {
+        max-width: 21.1rem;
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.4rem;
     }
 
-    .home-right .actions {
-        gap: 20px;
+    .home .content-container .actions {
+        gap: 2rem;
     }
 
-    .home-right .actions button {
-        padding: 5px 20px;
-        font-size: 10px;
+    .home .content-container .actions button {
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
     }
 
-    .home-right .actions .social a {
-        margin-inline: 5px;
+    .home .content-container .actions .social a {
+        margin-inline: 0.5rem;
     }
 
-    .home-right .actions .social i {
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-size: 8px;
+    .home .content-container .actions .social a i {
+        width: 3rem;
+        height: 3rem;
+        font-size: 0.8rem;
+        line-height: 3rem;
     }
 }

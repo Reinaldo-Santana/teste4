@@ -7,6 +7,10 @@
     .home .visual-area .logo {
         transform: translateY(0);
     }
+
+    .home .content-container {
+        padding-left: 0;
+    }
 }
 
 /* RESPONSIVO: iPad e Tablets */
@@ -49,7 +53,7 @@
     }
 
     .home .content-container .actions .social a {
-        margin-inline: 1.2rem;
+        margin-inline: 12px;
     }
 
     .home .content-container .actions .social a i {
@@ -62,7 +66,7 @@
 
     .home .content-container a:active i {
         position: relative;
-        bottom: 0.2rem;
+        bottom: 2px;
     }
 
     .home .content-container .actions .social .fa-twitter {
@@ -94,7 +98,7 @@
     .home .visual-area .logo {
         max-width: 17rem;
         text-align: start;
-        transform: translateY(-35%);
+        transform: translateY(-15%);
     }
 
     .home .visual-area .illustration-container {
@@ -106,7 +110,7 @@
     }
 
     .home .content-container h1 {
-        margin-bottom: 1rem;
+        margin-bottom: 10px;
     }
 
     .home .content-container p {
@@ -119,18 +123,18 @@
     }
 
     .home .content-container .actions button {
-        padding: 1rem 7.5rem;
+        padding: 10px 75px;
     }
 
     .home .content-container .actions .social a {
-        margin-inline: 0.8rem;
+        margin-inline: 8px;
     }
 }
 
 /* RESPONSIVO: Relógios Digitais e MiniCelulares */
 @media (width <=320px) {
     .home {
-        padding: 3rem 5%;
+        padding: 20px 5%;
         gap: 1rem;
     }
 
@@ -158,18 +162,18 @@
     }
 
     .home .content-container .actions button {
-        padding: 0.5rem 2rem;
+        padding: 5px 20px;
         font-size: 1rem;
     }
 
     .home .content-container .actions .social a {
-        margin-inline: 0.5rem;
+        margin-inline: 5px;
     }
 
     .home .content-container .actions .social a i {
         width: 3rem;
         height: 3rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 3rem;
     }
 }

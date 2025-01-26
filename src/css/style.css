@@ -41,10 +41,11 @@ html {
     }
 
     .content-container {
-        margin-bottom: 4rem;
+        margin-bottom: 40px;
+        padding-left: 1rem;
 
         h1 {
-            margin-bottom: 2.5rem;
+            margin-bottom: 25px;
             color: var(--white-color);
             font-family: "Poppins", sans-serif;
             font-size: clamp(2.4rem, 5vw, 3.2rem);
@@ -54,20 +55,20 @@ html {
 
         p {
             max-width: 45.1rem;
-            margin-bottom: 2.8rem;
+            margin-bottom: 28px;
             color: var(--text-color);
             font-weight: 400;
             line-height: 2.5rem;
         }
 
         .actions button {
-            padding: 1.5rem 6rem;
+            padding: 15px 60px;
             border-radius: 2.8rem;
             color: #674baf;
             box-shadow: inset 0 0 0 0 var(--button-color);
             font-family: "Poppins", sans-serif;
-            font-size: 1.8rem;
-            letter-spacing: 0.1rem;
+            font-size: 18px;
+            letter-spacing: 1px;
             cursor: pointer;
             transition: 0.5s ease-in-out;
 
@@ -87,18 +88,18 @@ html {
 
             &:active {
                 position: relative;
-                top: 0.1rem;
+                top: 1px;
             }
         }
 
         .actions .social {
             position: absolute;
-            bottom: 3rem;
-            right: 7rem;
+            bottom: 30px;
+            right: 70px;
 
             a {
                 display: inline-block;
-                margin-inline: 0.5rem;
+                margin-inline: 5px;
                 border-radius: 50%;
 
                 i {
@@ -109,7 +110,6 @@ html {
                     background-color: var(--white-color);
                     color: #000000;
                     box-shadow: #00000066 0px 2px 4px, #0000004d 0px 7px 13px -3px, #00000033 0px -3px 0px inset;
-                    font-size: 1.6rem;
                     line-height: 4rem;
                     transition: 0.2s ease-in-out;
                 }
